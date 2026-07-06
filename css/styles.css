@@ -2029,6 +2029,21 @@ textarea:focus {
   color: #FFFFFF;
   transform: translateY(-2px);
 }
+.hero-trust {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.hero-trust span {
+    opacity: 0.95;
+}
 
 /* Hide scroll-down indicator on redesigned hero */
 .hero .scroll-down {
