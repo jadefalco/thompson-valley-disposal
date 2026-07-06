@@ -1655,7 +1655,7 @@ textarea:focus {
 .site-footer {
   background: var(--color-charcoal);
   color: rgba(255, 255, 255, 0.75);
-  padding: var(--space-xl) 0 var(--space-sm);
+  padding: 0rem 0;
 }
 
 .footer-inner {
@@ -1663,12 +1663,11 @@ textarea:focus {
   gap: var(--space-md);
   margin-bottom: var(--space-md);
 }
-
-.footer-brand img {
-  max-height: 44px;
-  width: auto;
-  margin-bottom: var(--space-sm);
+.footer-logo {
+    width: 220px;
+    height: auto;
 }
+
 
 .footer-brand p {
   max-width: 340px;
